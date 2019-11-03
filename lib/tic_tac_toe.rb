@@ -108,11 +108,4 @@ def winner(board)
   end
 end
 
-def play(board)
-  turn(board) = gets.strip
-  if over?(board)
-    true
-  else
-    turn(board)
 
-end
